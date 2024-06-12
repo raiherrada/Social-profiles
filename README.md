@@ -16,7 +16,7 @@ The challenge was to build out a social links profile and get it looking as clos
 
 ### Screenshot
 
-<img src="images/screenshoot.png" width="400px">
+<img src="images/screenshot.png" width="400px">
 
 ### Links
 

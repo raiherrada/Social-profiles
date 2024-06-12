@@ -20,8 +20,8 @@ The challenge was to build out a social links profile and get it looking as clos
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/recipe-website-challenge-yVW2LscMCt
-- Live Site URL: https://reciperainiero.netlify.app/
+- Solution URL: https://www.frontendmentor.io/solutions/social-links-profile-solution-c1AOXLPGgQ
+- Live Site URL: https://socialmediarai.netlify.app/
 
 ### Built with
 

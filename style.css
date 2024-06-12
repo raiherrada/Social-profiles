@@ -1,0 +1,78 @@
+
+/* General styles */
+body {
+    background: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Styles for the "social links" container */
+
+.social-links-container {
+    display: flex;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: 590px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #1F1F1F;
+}
+
+/* Styles for the main avatar */
+
+.avatar {
+    width: 90px;
+    margin: 10px auto 10px auto;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: 800;
+}
+
+.location {
+    text-align: center;
+    color: #16F4D0;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.description {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 30px 20px 30px;
+}
+
+/* Styles for the buttons */
+
+.button {
+    margin: 5px 40px 5px 40px;
+    padding: 15px 40px;
+    cursor:pointer;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font:inherit;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #16F4D0;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}

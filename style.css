@@ -4,6 +4,8 @@ body {
     background: black;
     color: white;
     font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Styles for the "social links" container */
@@ -11,7 +13,7 @@ body {
 .social-links-container {
     display: flex;
     margin: auto;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     margin-top: 50px;
     justify-content: center;
     flex-direction: column;
@@ -52,15 +54,27 @@ h1 {
     margin: 5px 30px 20px 30px;
 }
 
+.list-container {
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 0px;
+    width: 87%; /* Modifies the width of the list-container so the space on the left after removing the bullet points with
+    list-style-type does not exist anymore */
+}
+
 /* Styles for the buttons */
 
-.button {
-    margin: 5px 40px 5px 40px;
+a.button {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px 40px 10px 4px;
     padding: 15px 40px;
     cursor:pointer;
     background-color: #333333;
     color: white;
-    text-align: center;
     font:inherit;
     font-size: 14px;
     font-weight: 600;
@@ -68,7 +82,7 @@ h1 {
     border: none;
 }
 
-.button:hover {
+a.button:hover {
     background-color: #16F4D0;
 }
 
